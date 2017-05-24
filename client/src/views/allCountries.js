@@ -23,6 +23,7 @@ AllCountries.prototype = {
       var listItem = document.createElement("li");
       listItem.innerText = country.name;
       list.appendChild(listItem);
+      var deleteButton = document.createElement("button");
     }
     for (country of countries){
       var center = {lat: country.latlng[0], lng:country.latlng[1]};
@@ -67,11 +68,8 @@ AllCountries.prototype = {
       var jsonString = JSON.stringify(country);
       localStorage.setItem('country', jsonString);
 
-      var list = document.getElementById("country-list");
-      var listItem = document.createElement("li")
-      listItem.innerText = country[0].name
-      listItem.id = "country-name"
-      list.appendChild(listItem);
+      var listItem = document.getElementById("country-name");
+      listItem.innerText = country[0].name;
     });
   },
 

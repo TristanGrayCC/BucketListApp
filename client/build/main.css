@@ -1,4 +1,28 @@
 #main-map {
   width: 600px;
   height: 500px;
+  float: right;
+}
+
+#header li {
+  list-style-type: none;
+  display: inline;
+}
+
+#country-list {
+  list-style-type: none;
+}
+
+#drop-down {
+  margin-left: 20px
+}
+
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  background-color: skyblue;
+}
+
+h1 {
+  margin-left: 40px
 }
