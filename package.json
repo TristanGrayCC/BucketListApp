@@ -1,0 +1,22 @@
+{
+  "name": "bucket_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "webpack": "cd client && webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "webpack": "^2.6.0"
+  }
+}
